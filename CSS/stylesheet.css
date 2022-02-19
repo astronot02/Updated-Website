@@ -67,7 +67,20 @@ h1 {
   padding-left: 35px;
 }
 
+.column2 {
+  flex: 50%
+  padding: 10px;
+  padding-left:35px;
+}
+
 .column img {
+  max-height: 100%;
+  max-width: 400px;
+  padding: 5px;
+  border: solid 3px black;
+}
+
+.column2 img {
   max-height: 100%;
   max-width: 400px;
   padding: 5px;
