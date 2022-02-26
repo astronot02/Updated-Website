@@ -1,0 +1,148 @@
+body {
+  background: url(../Images/white_marble.jpeg) repeat;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-left: 40px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 60px;
+  color: rgb(130, 134, 70);
+}
+
+.myDiv {
+  padding: 30px;
+  height: 1000px;
+}
+
+.myPadding {
+  padding-left: 500px;
+}
+
+.myPadding2 {
+  padding-left: 515px;
+}
+
+.myPadding3 {
+  padding-right: 500px;
+}
+
+.myPadding4 {
+  padding-right: 515px;
+}
+
+.imageSize {
+  height: 600px;
+  border: 15px solid rgb(0, 0, 0);
+}
+
+.imageSize2 {
+  height: 650px;
+  border: 15px solid rgb(0, 0, 0);
+}
+
+.myPic {
+  float: left;
+}
+
+.myPic2 {
+  float: right;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 33%;
+  padding: 10px;
+  padding-left: 35px;
+}
+
+.column img {
+  max-height: 100%;
+  max-width: 400px;
+  padding: 5px;
+  border: solid 3px black;
+}
+
+.works {
+  border-top: 5px solid lightblue;
+  float: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.active img:hover {
+  border: black;
+  background: yellowgreen;
+  size: 200%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+mark {
+  background-color: rgb(207, 193, 146);
+  color: #111;
+}
+
+.zoom {
+  overflow: hidden;
+  transition: transform 0.1s;
+}
+
+div.zoom:hover {
+  transform: scale(1.2);
+}
+
+.readable {
+  font-size: x-large;
+}
+
+div.readable > p {
+  padding-left: 40px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imgD {
+  float: center;
+  width: 500px;
+}
